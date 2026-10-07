@@ -1,75 +1,100 @@
-# React + TypeScript + Vite
+# Ankur Kumar — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional personal portfolio website showcasing my work, technical skills, projects, problem-solving journey, and software development experience.
 
-Currently, two official plugins are available:
+The portfolio is built as a modern single-page application using React, TypeScript, and Tailwind CSS, with a focus on clean UI, responsive design, and production-ready development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Website
 
-## React Compiler
+Coming soon.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About
 
-## Expanding the ESLint configuration
+I'm Ankur Kumar, a self-driven developer focused on Java backend development.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+My primary areas of interest include:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Java
+- Spring Boot
+- REST API development
+- PostgreSQL & MySQL
+- Database design
+- Data Structures & Algorithms
+- React & TypeScript
+- System design
+- AI integration
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+I learn primarily through building real-world projects, solving programming problems, and continuously improving my understanding of software architecture.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
 
-```
+- Responsive single-page portfolio
+- Desktop sidebar navigation
+- Responsive mobile navigation
+- Active section highlighting
+- Professional dark developer-focused UI
+- Project showcase
+- Technical skills section
+- LeetCode profile section
+- Development journey timeline
+- Contact section
+- Resume access
+- GitHub, LinkedIn, X, and LeetCode links
+- Smooth section navigation
+- Responsive layouts for desktop, tablet, and mobile
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Frontend
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide React
 
-```
+### Development Tools
+
+- Git
+- GitHub
+- npm
+- IntelliJ IDEA
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── about/
+│   │   └── About.tsx
+│   │
+│   ├── contact/
+│   │   └── Contact.tsx
+│   │
+│   ├── home/
+│   │   ├── Hero.tsx
+│   │   └── Stats.tsx
+│   │
+│   ├── journey/
+│   │   └── Journey.tsx
+│   │
+│   ├── layout/
+│   │   └── Sidebar.tsx
+│   │
+│   ├── leetcode/
+│   │   └── LeetCodeDashboard.tsx
+│   │
+│   ├── projects/
+│   │   ├── ProjectCard.tsx
+│   │   └── Projects.tsx
+│   │
+│   └── skills/
+│       └── Skills.tsx
+│
+├── App.tsx
+├── App.css
+└── main.tsx
+
+public/
+├── Ankur-Resume.pdf
+└── favicon.svg
