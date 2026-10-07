@@ -18,8 +18,8 @@ import { useEffect, useState } from "react";
 const navigation = [
     { name: "Home", icon: Home, href: "#home" },
     { name: "About", icon: User, href: "#about" },
-    { name: "Projects", icon: Folder, href: "#projects" },
     { name: "Skills", icon: Layers, href: "#skills" },
+    { name: "Projects", icon: Folder, href: "#projects" },
     { name: "LeetCode", icon: Trophy, href: "#leetcode" },
     { name: "Journey", icon: Map, href: "#journey" },
     { name: "Contact", icon: Mail, href: "#contact" },
